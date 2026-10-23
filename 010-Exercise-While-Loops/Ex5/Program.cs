@@ -5,66 +5,30 @@ internal class Program
     private static void Main(string[] args)
     {
         var coins = double.Parse(Console.ReadLine());
-        var levs = Math.Floor(coins);
-        var monets = Math.Round((coins - levs) * 100);
-        double counter = 0;
-
-        while (levs > 0)
-            switch (levs)
-            {
-                case >= 2:
-                    counter++;
-                    levs -= 2;
-                    break;
-                case >= 1 when !(monets > 0):
-                    continue;
-                case >= 1:
-                    counter++;
-                    levs -= 1;
-                    break;
-            }
+        // Work in whole stotinki to avoid floating point drift.
+        var monets = (int)Math.Round(coins * 100);
+        var counter = 0;
 
         while (monets > 0)
-            if (monets >= 50)
-            {
-                counter++;
-                monets -= 50;
-            }
+        {
+            if (monets >= 200)
+                monets -= 200;
+            else if (monets >= 100)
+                monets -= 100;
             else if (monets >= 50)
-            {
-                counter++;
                 monets -= 50;
-            }
             else if (monets >= 20)
-            {
-                counter++;
                 monets -= 20;
-            }
             else if (monets >= 10)
-            {
-                counter++;
                 monets -= 10;
-            }
-            else if (monets >= 05)
-            {
-                counter++;
-                monets -= 05;
-            }
-            else if (monets >= 02)
-            {
-                counter++;
-                monets -= 02;
-            }
-            else if (monets >= 01)
-            {
-                counter++;
-                monets -= 01;
-                break;
-            }
+            else if (monets >= 5)
+                monets -= 5;
+            else if (monets >= 2)
+                monets -= 2;
             else
-            {
-                break;
-            }
+                monets -= 1;
+            counter++;
+        }
 
         Console.WriteLine(counter);
     }

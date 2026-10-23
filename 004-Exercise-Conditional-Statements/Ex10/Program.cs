@@ -31,7 +31,7 @@ internal class Program
                 hours = Math.Abs(timeLeft / 60);
                 minutes = Math.Abs(timeLeft % 60);
                 Console.WriteLine("Tom sleeps well");
-                Console.WriteLine($"{hours} hours and {minutes} less for play");
+                Console.WriteLine($"{hours} hours and {minutes} minutes less for play");
                 break;
             }
         }

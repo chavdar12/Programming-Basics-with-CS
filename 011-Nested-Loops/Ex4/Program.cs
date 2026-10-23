@@ -7,7 +7,6 @@ internal class Program
         var start = int.Parse(Console.ReadLine());
         var end = int.Parse(Console.ReadLine());
 
-        const bool isMagicNumberFound = false;
         var magicNumber = int.Parse(Console.ReadLine());
         var comb = 0;
 
@@ -20,6 +19,6 @@ internal class Program
             return;
         }
 
-        if (!isMagicNumberFound) Console.WriteLine($"{comb} combinations - neither equals {magicNumber}");
+        Console.WriteLine($"{comb} combinations - neither equals {magicNumber}");
     }
 }

@@ -24,7 +24,7 @@ internal class Program
                 sumApartment = apartment * nights;
                 switch (nights)
                 {
-                    case > 7 and < 14:
+                    case > 7 and <= 14:
                         discount = sumStudio * 0.05;
                         sumStudio -= discount;
                         break;

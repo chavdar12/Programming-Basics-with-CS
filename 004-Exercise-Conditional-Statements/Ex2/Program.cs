@@ -12,7 +12,7 @@ internal class Program
             case <= 100:
                 bonusPoints += 5;
                 break;
-            case > 100 and < 1000:
+            case <= 1000:
                 bonusPoints = pointsNumber * 0.20;
                 break;
             case > 1000:

@@ -10,7 +10,7 @@ internal class Program
 
         double result;
 
-        if (secondNumber == 0)
+        if (secondNumber == 0 && numbersOperator is '/' or '%')
             Console.WriteLine($"Cannot divide {firstNumber} by zero");
 
         else

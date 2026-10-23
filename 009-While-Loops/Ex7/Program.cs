@@ -11,17 +11,15 @@ internal class Program
         while (gradeCounter < 12)
         {
             var grades = double.Parse(Console.ReadLine());
-            switch (grades)
+            // A failed year is repeated, so it doesn't move the student to the next grade.
+            if (grades < 4.00)
             {
-                case >= 4.00:
-                    gradesSum += grades;
-                    break;
-                case < 4.00:
-                    excludeCounter++;
-                    break;
+                excludeCounter++;
+                if (excludeCounter > 1) break;
+                continue;
             }
 
-            if (excludeCounter > 1) break;
+            gradesSum += grades;
             gradeCounter++;
         }
 
@@ -32,7 +30,7 @@ internal class Program
         }
         else
         {
-            Console.WriteLine($"{studentName} has been excluded at {gradeCounter} grade");
+            Console.WriteLine($"{studentName} has been excluded at {gradeCounter + 1} grade");
         }
     }
 }

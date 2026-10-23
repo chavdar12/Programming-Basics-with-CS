@@ -11,7 +11,7 @@ internal class Program
         while (input != "stop")
         {
             var numbers = int.Parse(input);
-            var isNumberPrime = true;
+            var isNumberPrime = numbers > 1;
 
             if (numbers < 0)
             {

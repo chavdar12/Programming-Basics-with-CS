@@ -21,7 +21,7 @@ internal class Program
         else if (projectHours > totalHours)
         {
             var timeNeeded = Math.Abs(totalHours - projectHours);
-            Console.WriteLine($"Not enought time!{Math.Floor(timeNeeded)} hours needed.");
+            Console.WriteLine($"Not enough time!{Math.Floor(timeNeeded)} hours needed.");
         }
     }
 }

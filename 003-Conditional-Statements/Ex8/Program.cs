@@ -29,12 +29,12 @@ internal class Program
 
         var moneyLeftAfterRent = totalSum - totalSum * 0.10; // 10% from totalSum
 
-        if (moneyLeftAfterRent > tripPrice)
+        if (moneyLeftAfterRent >= tripPrice)
         {
             var leftMoney = moneyLeftAfterRent - tripPrice;
             Console.WriteLine($"Yes! {leftMoney:f2} lv left.");
         }
-        else if (moneyLeftAfterRent < tripPrice)
+        else
         {
             var neededMoney = tripPrice - moneyLeftAfterRent;
             Console.WriteLine($"Not enough money! {neededMoney:f2} lv needed.");

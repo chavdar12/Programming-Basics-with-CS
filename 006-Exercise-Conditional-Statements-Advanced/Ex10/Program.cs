@@ -12,7 +12,7 @@ internal class Program
         var totalWeekendsAtSofia = totalWeekends - weekendsThatVladiTravels;
         var saturdayGamesAtSofia = totalWeekendsAtSofia * 0.75;
 
-        var gamesAtHolidays = holidayNumbersAtTheYear * 0.6667;
+        var gamesAtHolidays = holidayNumbersAtTheYear * 2.0 / 3;
         var totalGames = saturdayGamesAtSofia + weekendsThatVladiTravels + gamesAtHolidays;
 
         if (year == "leap")

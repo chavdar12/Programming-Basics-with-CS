@@ -8,19 +8,15 @@ internal class Program
         var averageSuccess = double.Parse(Console.ReadLine());
         var minimalSalary = double.Parse(Console.ReadLine());
 
-        if (income <= minimalSalary && averageSuccess > 4.50 && averageSuccess < 5.50)
-        {
-            var scholarship = Math.Floor(minimalSalary * 0.35);
+        var scholarship = income < minimalSalary && averageSuccess > 4.50 ? Math.Floor(minimalSalary * 0.35) : 0;
+        var scholarshipExcellent = averageSuccess >= 5.50 ? Math.Floor(averageSuccess * 25) : 0;
+
+        // Eligible for both: the bigger one wins, a tie goes to the excellent-results scholarship.
+        if (scholarship > scholarshipExcellent)
             Console.WriteLine($"You get a Social scholarship {scholarship} BGN");
-        }
-        else if (averageSuccess >= 5.50)
-        {
-            var scholarshipExcellent = Math.Floor(averageSuccess * 25);
+        else if (scholarshipExcellent > 0)
             Console.WriteLine($"You get a scholarship for excellent results {scholarshipExcellent} BGN");
-        }
         else
-        {
             Console.WriteLine("You cannot get a scholarship!");
-        }
     }
 }

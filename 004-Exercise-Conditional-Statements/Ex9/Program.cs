@@ -24,7 +24,7 @@ internal class Program
         else if (totalWaterFromPipes > poolVolume)
         {
             var overflowLiters = totalWaterFromPipes - poolVolume;
-            Console.WriteLine($"For {hoursThatWorkerIsOut} the pool overflows with {overflowLiters:f2} liters.");
+            Console.WriteLine($"For {hoursThatWorkerIsOut} hours the pool overflows with {overflowLiters:f2} liters.");
         }
     }
 }
