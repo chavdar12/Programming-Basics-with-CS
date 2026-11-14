@@ -21,6 +21,8 @@ public class ExerciseWhileLoopsTests
     [InlineData("010-Ex5", "3", "2\n")]
     [InlineData("010-Ex6", "10\n10\n20\n20\n20\n20\n21", "No more cake left! You need 1 pieces more.\n")]
     [InlineData("010-Ex6", "10\n2\n2\n4\n6\nSTOP", "8 pieces are left.\n")]
+    [InlineData("010-Ex7", "10\n10\n2\n20\n20\n20\n20\n122", "No more free space! You need 2 Cubic meters more.\n")]
+    [InlineData("010-Ex7", "10\n1\n2\n4\n6\nDone", "10 Cubic meters left.\n")]
     public void Prints_expected_output(string program, string input, string expected) =>
         Assert.Equal(expected, ProgramRunner.Run(program, input));
 }

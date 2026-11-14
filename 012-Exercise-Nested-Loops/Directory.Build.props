@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- double.Parse and number formatting always use "." regardless of the machine's locale -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <!-- Every exercise is its own console app. The chapter prefix keeps assembly names unique (e.g. 003-Ex1). -->
+  <PropertyGroup Condition="!$(MSBuildProjectName.EndsWith('.Tests'))">
+    <OutputType>Exe</OutputType>
+    <AssemblyName>$([System.IO.Path]::GetFileName($([System.IO.Path]::GetDirectoryName($(MSBuildProjectDirectory)))).Substring(0, 3))-$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+</Project>

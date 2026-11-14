@@ -4,6 +4,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var inches = double.Parse(Console.ReadLine());
+
+        Console.WriteLine(inches * 2.54);
     }
 }

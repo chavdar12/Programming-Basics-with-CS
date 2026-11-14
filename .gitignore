@@ -29,3 +29,14 @@ coverage*.json
 .Spotlight-V100
 .Trashes
 .fseventsd
+
+## Windows / Linux
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+*.swp
+
+## Logs and temp files
+*.log
+*.tmp
