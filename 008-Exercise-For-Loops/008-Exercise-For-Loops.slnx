@@ -1,0 +1,18 @@
+<Solution>
+  <Project Path="Ex1/Ex1.csproj" />
+  <Project Path="Ex2/Ex2.csproj" />
+  <Project Path="Ex3/Ex3.csproj" />
+  <Project Path="Ex4/Ex4.csproj" />
+  <Project Path="Ex5/Ex5.csproj" />
+  <Project Path="Ex6/Ex6.csproj" />
+  <Project Path="Ex7/Ex7.csproj" />
+  <Project Path="Ex8/Ex8.csproj" />
+  <Project Path="Ex9/Ex9.csproj" />
+  <Project Path="Ex10/Ex10.csproj" />
+  <Project Path="Ex11/Ex11.csproj" />
+  <Project Path="Ex12/Ex12.csproj" />
+  <Project Path="Ex13/Ex13.csproj" />
+  <Project Path="Ex14/Ex14.csproj" />
+  <Project Path="Ex15/Ex15.csproj" />
+  <Project Path="ExerciseForLoops.Tests/ExerciseForLoops.Tests.csproj" />
+</Solution>

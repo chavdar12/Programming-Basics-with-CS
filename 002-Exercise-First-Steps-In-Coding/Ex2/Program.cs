@@ -4,6 +4,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var radians = double.Parse(Console.ReadLine());
+
+        Console.WriteLine(radians * 180 / Math.PI);
     }
 }

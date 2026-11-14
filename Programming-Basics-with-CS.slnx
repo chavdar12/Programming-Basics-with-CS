@@ -9,6 +9,7 @@
     <Project Path="001-First-Steps-In-Coding/Ex7/Ex7.csproj" />
     <Project Path="001-First-Steps-In-Coding/Ex8/Ex8.csproj" />
     <Project Path="001-First-Steps-In-Coding/Ex9/Ex9.csproj" />
+    <Project Path="001-First-Steps-In-Coding/FirstStepsInCoding.Tests/FirstStepsInCoding.Tests.csproj" />
   </Folder>
   <Folder Name="/002-Exercise-First-Steps-In-Coding/">
     <Project Path="002-Exercise-First-Steps-In-Coding/Ex1/Ex1.csproj" />
@@ -20,6 +21,7 @@
     <Project Path="002-Exercise-First-Steps-In-Coding/Ex7/Ex7.csproj" />
     <Project Path="002-Exercise-First-Steps-In-Coding/Ex8/Ex8.csproj" />
     <Project Path="002-Exercise-First-Steps-In-Coding/Ex9/Ex9.csproj" />
+    <Project Path="002-Exercise-First-Steps-In-Coding/ExerciseFirstStepsInCoding.Tests/ExerciseFirstStepsInCoding.Tests.csproj" />
   </Folder>
   <Folder Name="/003-Conditional-Statements/">
     <Project Path="003-Conditional-Statements/Ex1/Ex1.csproj" />
@@ -30,16 +32,10 @@
     <Project Path="003-Conditional-Statements/Ex6/Ex6.csproj" />
     <Project Path="003-Conditional-Statements/Ex7/Ex7.csproj" />
     <Project Path="003-Conditional-Statements/Ex8/Ex8.csproj" />
+    <Project Path="003-Conditional-Statements/ConditionalStatements.Tests/ConditionalStatements.Tests.csproj" />
   </Folder>
   <Folder Name="/004-Exercise-Conditional-Statements/">
     <Project Path="004-Exercise-Conditional-Statements/Ex1/Ex1.csproj" />
-    <Project Path="004-Exercise-Conditional-Statements/Ex10/Ex10.csproj" />
-    <Project Path="004-Exercise-Conditional-Statements/Ex11/Ex11.csproj" />
-    <Project Path="004-Exercise-Conditional-Statements/Ex12/Ex12.csproj" />
-    <Project Path="004-Exercise-Conditional-Statements/Ex13/Ex13.csproj" />
-    <Project Path="004-Exercise-Conditional-Statements/Ex14/Ex14.csproj" />
-    <Project Path="004-Exercise-Conditional-Statements/Ex15/Ex15.csproj" />
-    <Project Path="004-Exercise-Conditional-Statements/Ex16/Ex16.csproj" />
     <Project Path="004-Exercise-Conditional-Statements/Ex2/Ex2.csproj" />
     <Project Path="004-Exercise-Conditional-Statements/Ex3/Ex3.csproj" />
     <Project Path="004-Exercise-Conditional-Statements/Ex4/Ex4.csproj" />
@@ -48,13 +44,17 @@
     <Project Path="004-Exercise-Conditional-Statements/Ex7/Ex7.csproj" />
     <Project Path="004-Exercise-Conditional-Statements/Ex8/Ex8.csproj" />
     <Project Path="004-Exercise-Conditional-Statements/Ex9/Ex9.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/Ex10/Ex10.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/Ex11/Ex11.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/Ex12/Ex12.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/Ex13/Ex13.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/Ex14/Ex14.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/Ex15/Ex15.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/Ex16/Ex16.csproj" />
+    <Project Path="004-Exercise-Conditional-Statements/ExerciseConditionalStatements.Tests/ExerciseConditionalStatements.Tests.csproj" />
   </Folder>
   <Folder Name="/005-Conditional-Statements-Advanced/">
     <Project Path="005-Conditional-Statements-Advanced/Ex1/Ex1.csproj" />
-    <Project Path="005-Conditional-Statements-Advanced/Ex10/Ex10.csproj" />
-    <Project Path="005-Conditional-Statements-Advanced/Ex11/Ex11.csproj" />
-    <Project Path="005-Conditional-Statements-Advanced/Ex12/Ex12.csproj" />
-    <Project Path="005-Conditional-Statements-Advanced/Ex13/Ex13.csproj" />
     <Project Path="005-Conditional-Statements-Advanced/Ex2/Ex2.csproj" />
     <Project Path="005-Conditional-Statements-Advanced/Ex3/Ex3.csproj" />
     <Project Path="005-Conditional-Statements-Advanced/Ex4/Ex4.csproj" />
@@ -63,10 +63,14 @@
     <Project Path="005-Conditional-Statements-Advanced/Ex7/Ex7.csproj" />
     <Project Path="005-Conditional-Statements-Advanced/Ex8/Ex8.csproj" />
     <Project Path="005-Conditional-Statements-Advanced/Ex9/Ex9.csproj" />
+    <Project Path="005-Conditional-Statements-Advanced/Ex10/Ex10.csproj" />
+    <Project Path="005-Conditional-Statements-Advanced/Ex11/Ex11.csproj" />
+    <Project Path="005-Conditional-Statements-Advanced/Ex12/Ex12.csproj" />
+    <Project Path="005-Conditional-Statements-Advanced/Ex13/Ex13.csproj" />
+    <Project Path="005-Conditional-Statements-Advanced/ConditionalStatementsAdvanced.Tests/ConditionalStatementsAdvanced.Tests.csproj" />
   </Folder>
   <Folder Name="/006-Exercise-Conditional-Statements-Advanced/">
     <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex1/Ex1.csproj" />
-    <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex10/Ex10.csproj" />
     <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex2/Ex2.csproj" />
     <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex3/Ex3.csproj" />
     <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex4/Ex4.csproj" />
@@ -75,11 +79,11 @@
     <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex7/Ex7.csproj" />
     <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex8/Ex8.csproj" />
     <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex9/Ex9.csproj" />
+    <Project Path="006-Exercise-Conditional-Statements-Advanced/Ex10/Ex10.csproj" />
+    <Project Path="006-Exercise-Conditional-Statements-Advanced/ExerciseConditionalStatementsAdvanced.Tests/ExerciseConditionalStatementsAdvanced.Tests.csproj" />
   </Folder>
   <Folder Name="/007-For-Loops/">
     <Project Path="007-For-Loops/Ex1/Ex1.csproj" />
-    <Project Path="007-For-Loops/Ex10/Ex10.csproj" />
-    <Project Path="007-For-Loops/Ex11/Ex11.csproj" />
     <Project Path="007-For-Loops/Ex2/Ex2.csproj" />
     <Project Path="007-For-Loops/Ex3/Ex3.csproj" />
     <Project Path="007-For-Loops/Ex4/Ex4.csproj" />
@@ -88,15 +92,12 @@
     <Project Path="007-For-Loops/Ex7/Ex7.csproj" />
     <Project Path="007-For-Loops/Ex8/Ex8.csproj" />
     <Project Path="007-For-Loops/Ex9/Ex9.csproj" />
+    <Project Path="007-For-Loops/Ex10/Ex10.csproj" />
+    <Project Path="007-For-Loops/Ex11/Ex11.csproj" />
+    <Project Path="007-For-Loops/ForLoops.Tests/ForLoops.Tests.csproj" />
   </Folder>
   <Folder Name="/008-Exercise-For-Loops/">
     <Project Path="008-Exercise-For-Loops/Ex1/Ex1.csproj" />
-    <Project Path="008-Exercise-For-Loops/Ex10/Ex10.csproj" />
-    <Project Path="008-Exercise-For-Loops/Ex11/Ex11.csproj" />
-    <Project Path="008-Exercise-For-Loops/Ex12/Ex12.csproj" />
-    <Project Path="008-Exercise-For-Loops/Ex13/Ex13.csproj" />
-    <Project Path="008-Exercise-For-Loops/Ex14/Ex14.csproj" />
-    <Project Path="008-Exercise-For-Loops/Ex15/Ex15.csproj" />
     <Project Path="008-Exercise-For-Loops/Ex2/Ex2.csproj" />
     <Project Path="008-Exercise-For-Loops/Ex3/Ex3.csproj" />
     <Project Path="008-Exercise-For-Loops/Ex4/Ex4.csproj" />
@@ -105,6 +106,13 @@
     <Project Path="008-Exercise-For-Loops/Ex7/Ex7.csproj" />
     <Project Path="008-Exercise-For-Loops/Ex8/Ex8.csproj" />
     <Project Path="008-Exercise-For-Loops/Ex9/Ex9.csproj" />
+    <Project Path="008-Exercise-For-Loops/Ex10/Ex10.csproj" />
+    <Project Path="008-Exercise-For-Loops/Ex11/Ex11.csproj" />
+    <Project Path="008-Exercise-For-Loops/Ex12/Ex12.csproj" />
+    <Project Path="008-Exercise-For-Loops/Ex13/Ex13.csproj" />
+    <Project Path="008-Exercise-For-Loops/Ex14/Ex14.csproj" />
+    <Project Path="008-Exercise-For-Loops/Ex15/Ex15.csproj" />
+    <Project Path="008-Exercise-For-Loops/ExerciseForLoops.Tests/ExerciseForLoops.Tests.csproj" />
   </Folder>
   <Folder Name="/009-While-Loops/">
     <Project Path="009-While-Loops/Ex1/Ex1.csproj" />
@@ -115,6 +123,7 @@
     <Project Path="009-While-Loops/Ex6/Ex6.csproj" />
     <Project Path="009-While-Loops/Ex7/Ex7.csproj" />
     <Project Path="009-While-Loops/Ex8/Ex8.csproj" />
+    <Project Path="009-While-Loops/WhileLoops.Tests/WhileLoops.Tests.csproj" />
   </Folder>
   <Folder Name="/010-Exercise-While-Loops/">
     <Project Path="010-Exercise-While-Loops/Ex1/Ex1.csproj" />
@@ -123,6 +132,8 @@
     <Project Path="010-Exercise-While-Loops/Ex4/Ex4.csproj" />
     <Project Path="010-Exercise-While-Loops/Ex5/Ex5.csproj" />
     <Project Path="010-Exercise-While-Loops/Ex6/Ex6.csproj" />
+    <Project Path="010-Exercise-While-Loops/Ex7/Ex7.csproj" />
+    <Project Path="010-Exercise-While-Loops/ExerciseWhileLoops.Tests/ExerciseWhileLoops.Tests.csproj" />
   </Folder>
   <Folder Name="/011-Nested-Loops/">
     <Project Path="011-Nested-Loops/Ex1/Ex1.csproj" />
@@ -132,9 +143,18 @@
     <Project Path="011-Nested-Loops/Ex5/Ex5.csproj" />
     <Project Path="011-Nested-Loops/Ex6/Ex6.csproj" />
     <Project Path="011-Nested-Loops/Ex7/Ex7.csproj" />
+    <Project Path="011-Nested-Loops/NestedLoops.Tests/NestedLoops.Tests.csproj" />
   </Folder>
   <Folder Name="/012-Exercise-Nested-Loops/">
     <Project Path="012-Exercise-Nested-Loops/Ex1/Ex1.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex2/Ex2.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex3/Ex3.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex4/Ex4.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex5/Ex5.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex6/Ex6.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex7/Ex7.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex8/Ex8.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/Ex9/Ex9.csproj" />
     <Project Path="012-Exercise-Nested-Loops/Ex10/Ex10.csproj" />
     <Project Path="012-Exercise-Nested-Loops/Ex11/Ex11.csproj" />
     <Project Path="012-Exercise-Nested-Loops/Ex12/Ex12.csproj" />
@@ -145,16 +165,6 @@
     <Project Path="012-Exercise-Nested-Loops/Ex17/Ex17.csproj" />
     <Project Path="012-Exercise-Nested-Loops/Ex18/Ex18.csproj" />
     <Project Path="012-Exercise-Nested-Loops/Ex19/Ex19.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex2/Ex2.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex3/Ex3.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex4/Ex4.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex5/Ex5.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex6/Ex6.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex7/Ex7.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex8/Ex8.csproj" />
-    <Project Path="012-Exercise-Nested-Loops/Ex9/Ex9.csproj" />
-  </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests/Programs.Tests/Programs.Tests.csproj" />
+    <Project Path="012-Exercise-Nested-Loops/ExerciseNestedLoops.Tests/ExerciseNestedLoops.Tests.csproj" />
   </Folder>
 </Solution>
